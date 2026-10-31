@@ -1,16 +1,16 @@
 [
   {
-    "slug": "kittyenginev5-development-timeline",
-    "title": "KittyEngineV5 Development Timeline",
-    "summary": "Chronological feature development timeline and milestone history for the KittyEngineV5 chess engine.",
+    "slug": "kittyengine-development-timeline",
+    "title": "KittyEngine Development Timeline",
+    "summary": "Chronological feature development timeline across all generations of the KittyEngine chess engine (V1 through V5).",
     "date": "2026-10-31",
     "tags": [
       "C++",
       "Software Engineering",
       "Video Games"
     ],
-    "readingTime": "4 min read",
-    "file": "articles/kittyenginev5-development-timeline.md"
+    "readingTime": "6 min read",
+    "file": "articles/kittyengine-development-timeline.md"
   },
   {
     "slug": "hit-me-like-a-trainwreck",
