@@ -1,0 +1,12 @@
+{
+  "name": "evanhyd.github.io",
+  "version": "1.0.0",
+  "description": "Evan Hyd's personal tech blog and website",
+  "scripts": {
+    "build": "node build-index.js",
+    "start": "npx serve .",
+    "dev": "node build-index.js && npx serve ."
+  },
+  "author": "Evan Hyd",
+  "license": "MIT"
+}

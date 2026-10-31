@@ -1,0 +1,54 @@
+[
+  {
+    "slug": "competitive-programming-fast-io",
+    "title": "Competitive Programming Hacks & Ultra-Fast I/O in C++",
+    "summary": "Squeezing every millisecond in online judges with custom unlocked I/O parsers.",
+    "date": "2026-10-30",
+    "tags": [
+      "C++",
+      "Algorithms",
+      "Performance"
+    ],
+    "readingTime": "2 min read",
+    "file": "articles/competitive-programming-fast-io.md"
+  },
+  {
+    "slug": "cpp-quirks-and-memes",
+    "title": "Modern C++ Quirks, Duck Typing, and Obfuscation Memes",
+    "summary": "Arrays as pointers, variadic fold expressions acting like duck typing, node extraction, and funny variable names.",
+    "date": "2026-10-28",
+    "tags": [
+      "C++",
+      "Memes",
+      "Humor"
+    ],
+    "readingTime": "2 min read",
+    "file": "articles/cpp-quirks-and-memes.md"
+  },
+  {
+    "slug": "cpp-variadic-forwarding",
+    "title": "Too Perfect Forwarding & Variadic Constructor Quirks",
+    "summary": "Deep dive into C++ template constructor overload resolution and variadic perfect forwarding pitfalls.",
+    "date": "2026-10-26",
+    "tags": [
+      "C++",
+      "Templates",
+      "Modern C++"
+    ],
+    "readingTime": "2 min read",
+    "file": "articles/cpp-variadic-forwarding.md"
+  },
+  {
+    "slug": "cheese-cs-midterm",
+    "title": "How to Cheese CS Midterm Exam",
+    "summary": "When the professor forgot to specify \"recursion only\" on the exam question.",
+    "date": "2026-10-25",
+    "tags": [
+      "C++",
+      "Algorithms",
+      "Midterm"
+    ],
+    "readingTime": "1 min read",
+    "file": "articles/cheese-cs-midterm.md"
+  }
+]
