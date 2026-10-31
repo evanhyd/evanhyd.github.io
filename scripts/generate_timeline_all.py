@@ -125,7 +125,7 @@ v5_body = old_content[v5_start:].strip()
 header = '''---
 title: "KittyEngine Development Timeline"
 date: 2026-10-31
-tags: ["C++", "Software Engineering", "Video Games"]
+tags: ["C++", "Software Engineering", "Chess Engine", "Performance"]
 summary: "Chronological feature development timeline across all generations of the KittyEngine chess engine (V1 through V5)."
 ---
 
