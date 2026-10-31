@@ -1,11 +1,10 @@
 ---
 title: Too Perfect Forwarding & Variadic Constructor Quirks
-date: 2026-10-26
+date: 2023-07-01
 tags: ["C++", "Templates", "Modern C++"]
 summary: Deep dive into C++ template constructor overload resolution and variadic perfect forwarding pitfalls.
 ---
 
-# Too Perfect Forwarding
 
 Here is a classic trap with universal references in template constructors:
 

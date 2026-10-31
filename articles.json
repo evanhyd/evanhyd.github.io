@@ -1,35 +1,103 @@
 [
   {
-    "slug": "competitive-programming-fast-io",
-    "title": "Competitive Programming Hacks & Ultra-Fast I/O in C++",
-    "summary": "Squeezing every millisecond in online judges with custom unlocked I/O parsers.",
-    "date": "2026-10-30",
+    "slug": "hit-me-like-a-trainwreck",
+    "title": "Hit me like a trainwreck",
+    "summary": "2026 January 5th, I took the [**CS 452 — Real-Time Programmin**](https://uwflow.com/course/cs452)**g** in my last year of Software Engineering program at University of Waterloo. The course involves...",
+    "date": "2026-08-28",
     "tags": [
-      "C++",
-      "Algorithms",
-      "Performance"
+      "Software Engineering"
     ],
-    "readingTime": "2 min read",
-    "file": "articles/competitive-programming-fast-io.md"
+    "readingTime": "21 min read",
+    "file": "articles/hit-me-like-a-trainwreck.md"
   },
   {
-    "slug": "cpp-quirks-and-memes",
-    "title": "Modern C++ Quirks, Duck Typing, and Obfuscation Memes",
-    "summary": "Arrays as pointers, variadic fold expressions acting like duck typing, node extraction, and funny variable names.",
-    "date": "2026-10-28",
+    "slug": "the-art-of-abstraction-polymorphic-memory-allocator",
+    "title": "The Art of Abstraction — Polymorphic Memory Allocator",
+    "summary": "I’ve been developing my own data structure library for years, recently renamed to the [Flow Library](https://github.com/evanhyd/DataStructure). While I’ve made steady improvements, most of my conta...",
+    "date": "2025-09-27",
+    "tags": [
+      "Software Development",
+      "C++"
+    ],
+    "readingTime": "6 min read",
+    "file": "articles/the-art-of-abstraction-polymorphic-memory-allocator.md"
+  },
+  {
+    "slug": "what-s-wrong-warren",
+    "title": "“What’s Wrong, Warren?”",
+    "summary": "Visual breakdown and charts: what's going on with Warren Buffett's portfolio moves.",
+    "date": "2025-09-16",
+    "tags": [
+      "Finance"
+    ],
+    "readingTime": "1 min read",
+    "file": "articles/what-s-wrong-warren.md"
+  },
+  {
+    "slug": "the-art-of-abstraction-simulate-go-interfaces-via-type-erasu",
+    "title": "The Art of Abstraction — Simulate Go interfaces via type erasure",
+    "summary": "In the **Go programming language**, a class satisfies an interface if it implements all its functions.",
+    "date": "2025-01-27",
     "tags": [
       "C++",
-      "Memes",
-      "Humor"
+      "Software Development"
+    ],
+    "readingTime": "4 min read",
+    "file": "articles/the-art-of-abstraction-simulate-go-interfaces-via-type-erasu.md"
+  },
+  {
+    "slug": "the-art-of-abstraction-spoof-stl-with-custom-iterator",
+    "title": "The Art of Abstraction — Spoof STL with custom iterator",
+    "summary": "You are given a function p(x) -> bool.",
+    "date": "2024-08-04",
+    "tags": [
+      "Software Development",
+      "C++"
+    ],
+    "readingTime": "4 min read",
+    "file": "articles/the-art-of-abstraction-spoof-stl-with-custom-iterator.md"
+  },
+  {
+    "slug": "random-chocolate-review",
+    "title": "Random Chocolate Review",
+    "summary": "I often get hungry at night when staying up late, so I asked myself, why not purchase some chocolates from the local convenience store? On a random night, I went to the school plaza and purchased 4...",
+    "date": "2024-04-19",
+    "tags": [
+      "Review",
+      "Food"
     ],
     "readingTime": "2 min read",
-    "file": "articles/cpp-quirks-and-memes.md"
+    "file": "articles/random-chocolate-review.md"
+  },
+  {
+    "slug": "a-comprehensive-guide-to-t-bagging-in-dead-by-daylight",
+    "title": "A Comprehensive Guide to T-Bagging in Dead By Daylight",
+    "summary": "Hello to the survivors in the fog, whether you are a SOLOQ specialist or SWF player. Today, I am writing a tutorial on how to t-bag as a survivor properly in Dead by Daylight without ending as a vi...",
+    "date": "2024-03-10",
+    "tags": [
+      "Gaming"
+    ],
+    "readingTime": "8 min read",
+    "file": "articles/a-comprehensive-guide-to-t-bagging-in-dead-by-daylight.md"
+  },
+  {
+    "slug": "profiling-data-structure-in-go",
+    "title": "Profiling Data Structure in GO",
+    "summary": "GO provides only a few data structures such as slice (dynamic array), map (hash table), and some other [containers](https://pkg.go.dev/container). Recently I have been porting my custom data struct...",
+    "date": "2024-01-13",
+    "tags": [
+      "Go",
+      "Software Engineering",
+      "Computer Science"
+    ],
+    "readingTime": "9 min read",
+    "file": "articles/profiling-data-structure-in-go.md"
   },
   {
     "slug": "cpp-variadic-forwarding",
     "title": "Too Perfect Forwarding & Variadic Constructor Quirks",
     "summary": "Deep dive into C++ template constructor overload resolution and variadic perfect forwarding pitfalls.",
-    "date": "2026-10-26",
+    "date": "2023-07-01",
     "tags": [
       "C++",
       "Templates",
@@ -42,7 +110,7 @@
     "slug": "cheese-cs-midterm",
     "title": "How to Cheese CS Midterm Exam",
     "summary": "When the professor forgot to specify \"recursion only\" on the exam question.",
-    "date": "2026-10-25",
+    "date": "2022-06-09",
     "tags": [
       "C++",
       "Algorithms",
@@ -50,5 +118,31 @@
     ],
     "readingTime": "1 min read",
     "file": "articles/cheese-cs-midterm.md"
+  },
+  {
+    "slug": "cpp-quirks-and-memes",
+    "title": "Modern C++ Quirks, Duck Typing, and Obfuscation Memes",
+    "summary": "Arrays as pointers, variadic fold expressions acting like duck typing, node extraction, and funny variable names.",
+    "date": "2022-04-08",
+    "tags": [
+      "C++",
+      "Memes",
+      "Humor"
+    ],
+    "readingTime": "2 min read",
+    "file": "articles/cpp-quirks-and-memes.md"
+  },
+  {
+    "slug": "competitive-programming-fast-io",
+    "title": "Competitive Programming Hacks & Ultra-Fast I/O in C++",
+    "summary": "Squeezing every millisecond in online judges with custom unlocked I/O parsers.",
+    "date": "2022-04-05",
+    "tags": [
+      "C++",
+      "Algorithms",
+      "Performance"
+    ],
+    "readingTime": "2 min read",
+    "file": "articles/competitive-programming-fast-io.md"
   }
 ]

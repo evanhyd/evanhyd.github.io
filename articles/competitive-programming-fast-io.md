@@ -1,11 +1,10 @@
 ---
 title: Competitive Programming Hacks & Ultra-Fast I/O in C++
-date: 2026-10-30
+date: 2022-04-05
 tags: ["C++", "Algorithms", "Performance"]
 summary: Squeezing every millisecond in online judges with custom unlocked I/O parsers.
 ---
 
-# Competitive Programming Hacks & Ultra-Fast I/O
 
 When competing on platforms like Codeforces, AtCoder, or LeetCode, default `std::cin` and `std::cout` stream overhead can cause Time Limit Exceeded (TLE) verdicts on large test cases ($10^6$ integers).
 

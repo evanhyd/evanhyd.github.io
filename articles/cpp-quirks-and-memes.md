@@ -1,6 +1,6 @@
 ---
 title: Modern C++ Quirks, Duck Typing, and Obfuscation Memes
-date: 2026-10-28
+date: 2022-04-08
 tags: ["C++", "Memes", "Humor"]
 summary: Arrays as pointers, variadic fold expressions acting like duck typing, node extraction, and funny variable names.
 ---
@@ -65,3 +65,6 @@ mp                          (map / hashmap)
 addr, ptr                   (pointers)
 fn, fun, func               (functions)
 ```
+
+### 5. Brilliant std::string constructor
+[![bad std::string constructor](Image/C%2B%2BBadStringConstructor.PNG?raw=true)](https://www.youtube.com/watch?v=3MOw1a9B7kc)
