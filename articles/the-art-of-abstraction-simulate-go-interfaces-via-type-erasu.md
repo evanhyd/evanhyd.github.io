@@ -2,7 +2,7 @@
 title: "The Art of Abstraction — Simulate Go interfaces via type erasure"
 date: 2025-01-27
 tags: ["C++", "Software Development"]
-summary: "In the **Go programming language**, a class satisfies an interface if it implements all its functions."
+summary: "In the Go programming language, a class satisfies an interface if it implements all its functions. How can we simulate this structural typing in C++ via type erasure?"
 ---
 
 
@@ -167,7 +167,7 @@ int main() {
 }
 ```
 
-The Action class contains a templated constructor that creates a corresponding ActionAdapter depending on the argument type. In addition, I used a shared_ptr to avoid leaking memory. This is just one simple example of how you can enhance the wrapper class. Go wild with it!
+The Action class contains a templated constructor that creates a corresponding `ActionAdapter` depending on the argument type. In addition, I used a `shared_ptr` to avoid leaking memory. This is just one simple example of how you can enhance the wrapper class. Go wild with it!
 
 Full Code: [https://godbolt.org/z/rYzos9z8h](https://godbolt.org/z/rYzos9z8h)
 

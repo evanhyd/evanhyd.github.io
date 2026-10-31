@@ -18,7 +18,7 @@ Using the default “crouch” key is a common mistake that I see often among th
 ![left hand illustration](https://cdn-images-1.medium.com/max/602/1*A4ziJXOQBGxDJR7eT2C10w.png)
 *left hand illustration*
 
-WHY? You may ask. This is because in Dead By Daylight, the “sprint” key SHIFT is next to the “crouch” key CTRL. **You want the maximum control over your character’s movement, which means** **your ring, middle, and index fingers should be placed on “AWD” the majority of the time. **This left us only the pinky finger to control both the SHIFT key and CTRL key, which is awful.
+WHY? You may ask. This is because in Dead By Daylight, the “sprint” key SHIFT is next to the “crouch” key CTRL. **You want the maximum control over your character’s movement, which means** **your ring, middle, and index fingers should be placed on “AWD” the majority of the time.** This left us only the pinky finger to control both the SHIFT key and CTRL key, which is awful.
 
 ![](https://cdn-images-1.medium.com/max/606/1*6p3CVvQh6XUl1vRkpOaY5g.png)
 
@@ -28,11 +28,11 @@ Consider the scenario where you are looping a Nemesis (or Huntress, Trickster) i
 
 ![](https://cdn-images-1.medium.com/max/1024/1*38AQskDfrNSe0_6FFAAh1Q.png)
 
-First of all, you want to find the best position for t-bagging. Any enclosed red area is NOT a safe place to t-bag. **The killers can have NOED and hit you from the left/right sides, causing your character to fall onto the sideway instead of forward**, **and being picked up before can crawl out. **One way to prevent this is to use gesture animation to cancel the ragdoll effect, but it requires precise timing.
+First of all, you want to find the best position for t-bagging. Any enclosed red area is NOT a safe place to t-bag. **The killers can have NOED and hit you from the left/right sides, causing your character to fall sideways instead of forward, and be picked up before being able to crawl out.** One way to prevent this is to use gesture animation to cancel the ragdoll effect, but it requires precise timing.
 
 The enclosed green area is the recommended t-bag area as none of the things above can happen to you. The purple circle is the best position to t-bag as the pillars limit the space where your character can fall on the ground.
 
-**WARNING: **Some maps’ escaping lines are 1–2 meters behind the pillars, for example, the RPD and Dead Dwag. The pillar is not always a reliable way to estimate the green line.
+**WARNING:** Some maps’ escaping lines are 1–2 meters behind the pillars, for example, the RPD and Dead Dwag. The pillar is not always a reliable way to estimate the green line.
 
 ![](https://cdn-images-1.medium.com/max/616/1*s9TgluorGswTFyGeN2JtEw.png)
 
@@ -68,7 +68,7 @@ No risk.
 
 The Shape: D tier
 
-DO NOT, I REPEAT, DO NOT T-BAG MICHAEL MYER. If Michael Myer has a tombstone, then you will instantly get murdered on the spot. **Many Michael Myer will bring Play With Your Food to suppress the “moriable open left hand”. **There’s no reliable way to tell if the killer has a tombstone addon.
+DO NOT, I REPEAT, DO NOT T-BAG MICHAEL MYER. If Michael Myer has a tombstone, then you will instantly get murdered on the spot. **Many Michael Myer will bring Play With Your Food to suppress the “moriable open left hand”.** There’s no reliable way to tell if the killer has a tombstone addon.
 
 ![](https://cdn-images-1.medium.com/max/290/1*6--y1PhEn1NtlW_xHl5a1w.png)
 
@@ -158,7 +158,7 @@ No risk.
 
 The Deathslinger: D tier
 
-I do not recommend t-bagging The Deathslinger unless you **absolutely **know what you are doing. A good Deathslinger player with NOED, [**Iridescent Coin**](https://deadbydaylight.fandom.com/wiki/Iridescent_Coin)** (apply exposed status), **[**Prison Chain**](https://deadbydaylight.fandom.com/wiki/Prison_Chain)** (increase breaking chain time), **[**Bayshore’s Cigar**](https://deadbydaylight.fandom.com/wiki/Bayshore%27s_Cigar)+[**Warden’s Keys**](https://deadbydaylight.fandom.com/wiki/Warden%27s_Keys)** (reduce reloading time) CAN AND WILL pull your character far away from the exit gate before he can hit you again.** You are not safe from a good deathslinger player even if you are healthy. I will just escape as far as I can if I am not sure about his perks/addons.
+I do not recommend t-bagging The Deathslinger unless you **absolutely** know what you are doing. A good Deathslinger player with NOED, [**Iridescent Coin**](https://deadbydaylight.fandom.com/wiki/Iridescent_Coin) (apply exposed status), [**Prison Chain**](https://deadbydaylight.fandom.com/wiki/Prison_Chain) (increase breaking chain time), [**Bayshore’s Cigar**](https://deadbydaylight.fandom.com/wiki/Bayshore%27s_Cigar) + [**Warden’s Keys**](https://deadbydaylight.fandom.com/wiki/Warden%27s_Keys) (reduce reloading time) **CAN AND WILL pull your character far away from the exit gate before he can hit you again.** You are not safe from a good deathslinger player even if you are healthy. I will just escape as far as I can if I am not sure about his perks/addons.
 
 ![](https://cdn-images-1.medium.com/max/120/1*0HW3TJmfDsebDQNBRZjo7Q.png)
 

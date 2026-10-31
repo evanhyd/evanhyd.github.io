@@ -2,13 +2,13 @@
 title: "The Art of Abstraction — Spoof STL with custom iterator"
 date: 2024-08-04
 tags: ["Software Development", "C++"]
-summary: "You are given a function p(x) -> bool."
+summary: "Spoofing C++ STL binary search algorithms across large continuous search spaces with custom iterator abstractions."
 ---
 
 
 ## Context
 
-You are given a function p(x) -> bool.
+You are given a function `p(x) -> bool`.
 
 ```cpp
 // Return true if x exceeds an unknown threshold.
@@ -16,7 +16,7 @@ You are given a function p(x) -> bool.
 bool p(int x);
 ```
 
-p(x) may denote the maximum acceptable current in a circuit, the ID of the git commit that introduces bugs ([*git bisect*](https://git-scm.com/docs/git-bisect)), or even the minimum amount of money required to bribe a politician. One may attempt to use binary search to find the threshold** i**, such that **p(x) = true, ∀x ≥ i** and false otherwise. There are plenty of binary search tutorials online, and my favorite one is the generalized binary search that finds lower bound and upper bound at once: [*Binary search and other “halving” methods.*](https://web.archive.org/web/20250117082908/https://nor-blog.codeberg.page/posts/2021-11-07-binary-search/)
+p(x) may denote the maximum acceptable current in a circuit, the ID of the git commit that introduces bugs ([*git bisect*](https://git-scm.com/docs/git-bisect)), or even the minimum amount of money required to bribe a politician. One may attempt to use binary search to find the threshold **i**, such that **p(x) = true, &forall;x &ge; i** and false otherwise. There are plenty of binary search tutorials online, and my favorite one is the generalized binary search that finds lower bound and upper bound at once: [*Binary search and other “halving” methods.*](https://web.archive.org/web/20250117082908/https://nor-blog.codeberg.page/posts/2021-11-07-binary-search/)
 
 ## Binary Search in STL
 
@@ -186,7 +186,7 @@ int main() {
 ```
 
 Note:
-C++ 20’s std::view::iota() and boost::CountingIterator work in a similar way.
+C++ 20’s `std::views::iota()` and `boost::CountingIterator` work in a similar way.
 
 ```cpp
 auto spaces = std::views::iota(X, Y);

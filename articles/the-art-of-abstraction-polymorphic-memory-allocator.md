@@ -56,7 +56,7 @@ With all these concerns in mind, I want my new container designs to avoid these 
 
 ### Allocator Models
 
-The first step is choosing a memory allocator model. Prior to C++11, memory allocators were required to be stateless, though this constraint was later relaxed as it was too limiting. For the sake of simplicity and flexibility, I ended up with the Polymorphic Allocator **similar **to Bloomberg’s [BDE/BSL](https://github.com/bloomberg/bde)’s implementation.
+The first step is choosing a memory allocator model. Prior to C++11, memory allocators were required to be stateless, though this constraint was later relaxed as it was too limiting. For the sake of simplicity and flexibility, I ended up with the Polymorphic Allocator **similar** to Bloomberg’s [BDE/BSL](https://github.com/bloomberg/bde)’s implementation.
 
 ![Polymorphic Allocator](https://cdn-images-1.medium.com/max/688/1*Qx6LpD7ydMsgzqGTaAliNA.png)
 *Polymorphic Allocator*
@@ -171,7 +171,7 @@ protected:
 };
 ```
 
-Now, instead of replicating what STL did with vector<T, AllocatorType<T>>, where AllocatorType<T> can be ArenaAllocator<T>, PoolAllocator<T>, or other type of allocator, **we always use PolymorphicAllocator<T> and instantiate the PolymorphicAllocator<T> with different instances of MemoryResources depends on the strategy we want.**
+Now, instead of replicating what STL did with `vector<T, AllocatorType<T>>`, where `AllocatorType<T>` can be `ArenaAllocator<T>`, `PoolAllocator<T>`, or other type of allocator, **we always use `PolymorphicAllocator<T>` and instantiate the `PolymorphicAllocator<T>` with different instances of `MemoryResources` depending on the strategy we want.**
 
 ```cpp
 // Three different allocators but same vector type.
@@ -186,10 +186,10 @@ PolymorphicAllocator<int> allocator{r2};
 vector<int, PolymorphicAllocator<int>> alloc{ allocator };
 
 PolymorphicAllocator<int> allocator{r3};
-vector<int, PolymorphicAllocator<int>> alloc{ allocator };|
+vector<int, PolymorphicAllocator<int>> alloc{ allocator };
 ```
 
-This way, the users no longer need to change the API signature when swapping the allocator implementation. To make it easier to use, we can default the allocator type to the PolymorphicAllocator<T>, and this will solve the nested declaration issues that we mentioned earlier.
+This way, the users no longer need to change the API signature when swapping the allocator implementation. To make it easier to use, we can default the allocator type to the `PolymorphicAllocator<T>`, and this will solve the nested declaration issues that we mentioned earlier.
 
 ```cpp
 template <typename T, typename Allocator = PolymorphicAllocator<T>>

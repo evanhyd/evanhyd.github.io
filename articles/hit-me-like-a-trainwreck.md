@@ -2,12 +2,12 @@
 title: "Hit me like a trainwreck"
 date: 2026-08-28
 tags: ["Software Engineering"]
-summary: "2026 January 5th, I took the [**CS 452 — Real-Time Programmin**](https://uwflow.com/course/cs452)**g** in my last year of Software Engineering program at University of Waterloo. The course involves..."
+summary: "Reflections on CS 452 (Real-Time Programming) at the University of Waterloo: building an RTOS from scratch, interfacing with CAN bus, and multi-train coordination."
 ---
 
 ![](https://cdn-images-1.medium.com/max/1024/1*mdWtC2jmSJznrd8AiAfQpQ.jpeg)
 
-2026 January 5th, I took the [**CS 452 — Real-Time Programmin**](https://uwflow.com/course/cs452)**g** in my last year of Software Engineering program at University of Waterloo. The course involves implementing a real-time operating system from scratch, modules that interface with CAN bus network, and a system to coordinate multiple trains with extremely limited information.
+2026 January 5th, I took the [**CS 452 — Real-Time Programming**](https://uwflow.com/course/cs452) in my last year of Software Engineering program at University of Waterloo. The course involves implementing a real-time operating system from scratch, modules that interface with CAN bus network, and a system to coordinate multiple trains with extremely limited information.
 
 CS452 is one of the big three CS courses along with Graphics and Compiler courses that are notorious for their difficulties and workloads. Here’s an image of an Excel sheet that my classmate used to track the time spent on the labs.
 
@@ -207,7 +207,7 @@ In the final part of the kernel development, we implemented IO servers that uses
 
 ![](https://cdn-images-1.medium.com/max/808/1*M3FP8Pp5GGiql4-ua8N_GA.png)
 
-The operating system implementation later was proven to be **extremely solid **thanks to the defensive programming styles with lots of assertions and test cases (?).
+The operating system implementation later was proven to be **extremely solid** thanks to the defensive programming styles with lots of assertions and test cases (?).
 
 **AND this is it! This is basically everything about the kernel. Unfortunately, this is where the hard mode truly starts.**
 
@@ -404,7 +404,7 @@ In our implementation, we checked the train segment before and after. If there�
 
 ![](https://cdn-images-1.medium.com/max/375/1*xpIbuFADwpXj0wivvDIJCQ.png)
 
-As results, a train often fails to stop in time and trespass into a train segment that it did not reserve in the Pathfinding system. The solution to recover from these erroneous states aren’t trivial either. You can’t simply just rewind the trespassing train back to the previous train segment, because that train segment’s ownership was released and other train can arrive and occupy there, which forces us to rewind that train as well and cause a chain reaction. We tried to improve our measurement data, upgrade the physics model from high school level to undergrad level, change the trespassing detection algorithm, but none of them work well enough to prevent the train from crashing before the 5 mins running time landmark. These types of reliability/robustness issues took up > 80% of our time.
+As results, a train often fails to stop in time and trespass into a train segment that it did not reserve in the Pathfinding system. The solution to recover from these erroneous states aren’t trivial either. You can’t simply just rewind the trespassing train back to the previous train segment, because that train segment’s ownership was released and other train can arrive and occupy there, which forces us to rewind that train as well and cause a chain reaction. We tried to improve our measurement data, upgrade the physics model from high school level to undergrad level, change the trespassing detection algorithm, but none of them work well enough to prevent the train from crashing before the 5 mins running time landmark. These types of reliability/robustness issues took up &gt; 80% of our time.
 
 ![The Meme Window That Peak Into The Hell](https://cdn-images-1.medium.com/max/1024/0*O7SxORcoEVEusnK_.jpg)
 *The Meme Window That Peak Into The Hell*
@@ -523,7 +523,7 @@ Sleep schedule: 404
 
 Hours Spent: 700+ hours over 4 months.
 
-Workload: > 12000 lines of C++ codes.
+Workload: &gt; 12,000 lines of C++ code.
 
 Friend Made: Everyone in the class.
 

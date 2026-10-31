@@ -2,7 +2,7 @@
   {
     "slug": "hit-me-like-a-trainwreck",
     "title": "Hit me like a trainwreck",
-    "summary": "2026 January 5th, I took the [**CS 452 — Real-Time Programmin**](https://uwflow.com/course/cs452)**g** in my last year of Software Engineering program at University of Waterloo. The course involves...",
+    "summary": "Reflections on CS 452 (Real-Time Programming) at the University of Waterloo: building an RTOS from scratch, interfacing with CAN bus, and multi-train coordination.",
     "date": "2026-08-28",
     "tags": [
       "Software Engineering"
@@ -36,7 +36,7 @@
   {
     "slug": "the-art-of-abstraction-simulate-go-interfaces-via-type-erasu",
     "title": "The Art of Abstraction — Simulate Go interfaces via type erasure",
-    "summary": "In the **Go programming language**, a class satisfies an interface if it implements all its functions.",
+    "summary": "In the Go programming language, a class satisfies an interface if it implements all its functions. How can we simulate this structural typing in C++ via type erasure?",
     "date": "2025-01-27",
     "tags": [
       "C++",
@@ -48,7 +48,7 @@
   {
     "slug": "the-art-of-abstraction-spoof-stl-with-custom-iterator",
     "title": "The Art of Abstraction — Spoof STL with custom iterator",
-    "summary": "You are given a function p(x) -> bool.",
+    "summary": "Spoofing C++ STL binary search algorithms across large continuous search spaces with custom iterator abstractions.",
     "date": "2024-08-04",
     "tags": [
       "Software Development",

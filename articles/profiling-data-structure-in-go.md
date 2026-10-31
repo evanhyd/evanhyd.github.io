@@ -234,7 +234,7 @@ Opps, it didn’t match my expectation quite well…
 // BenchmarkBinomialHeap_Pop_Big-16       3472489        548.2 ns/op        0 B/op        0 allocs/op
 ```
 
-Although the Binary Heap Push() and Pop() ran faster with int64 = 8 bytes, Binomial Heap quickly outperformed Binary Heap when the object size is >160 bytes.
+Although the Binary Heap Push() and Pop() ran faster with int64 = 8 bytes, Binomial Heap quickly outperformed Binary Heap when the object size is &gt; 160 bytes.
 
 One may quickly realize this might have something to do with copying large sizes of data inside the fixUp() and fixDown() functions. This intuition might be correct, but we need more details to analyze its effect if there are any.
 
