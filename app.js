@@ -114,7 +114,7 @@
      ========================================================================== */
   async function loadArticles() {
     try {
-      const res = await fetch('articles.json');
+      const res = await fetch(`articles.json?t=${Date.now()}`, { cache: 'no-cache' });
       if (!res.ok) throw new Error('Failed to load articles index');
       articles = await res.json();
       buildTagFilters();
@@ -256,7 +256,7 @@
 
     try {
       const filePath = currentArticle.file || `articles/${slug}.md`;
-      const res = await fetch(filePath);
+      const res = await fetch(`${filePath}?t=${Date.now()}`, { cache: 'no-cache' });
       if (!res.ok) throw new Error(`Could not load ${filePath}`);
       const rawMarkdown = await res.text();
 
