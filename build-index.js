@@ -88,18 +88,47 @@ function parseMarkdownArticle(filePath) {
     date = stat.mtime.toISOString().split('T')[0];
   }
 
-  // 4. Tags fallback
-  let tags = metadata.tags;
-  if (!tags) {
-    tags = ['Notes'];
-    if (/\b(c\+\+|cpp|stl|template)\b/i.test(content)) tags.push('C++');
-    if (/\b(algorithm|competitive|midterm|contest|sorting|graph)\b/i.test(content)) tags.push('Algorithms');
-    if (/\b(python|script|ml|pytorch)\b/i.test(content)) tags.push('Python');
-    if (/\b(perf|performance|benchmark|fast)\b/i.test(content)) tags.push('Performance');
-    tags = Array.from(new Set(tags));
-  } else if (!Array.isArray(tags)) {
-    tags = [tags];
+  // 4. Tags normalization
+  let rawTags = metadata.tags || [];
+  if (!Array.isArray(rawTags)) rawTags = [rawTags];
+  
+  const tagMapping = {
+    'modern c++': 'C++',
+    'cpp': 'C++',
+    'c++': 'C++',
+    'software development': 'Software Engineering',
+    'software-development': 'Software Engineering',
+    'software engineering': 'Software Engineering',
+    'software-engineering': 'Software Engineering',
+    'gaming': 'Video Games',
+    'video game': 'Video Games',
+    'video games': 'Video Games',
+    'midterm': 'School',
+    'school': 'School',
+    'finance': 'Finance',
+    'algorithms': 'Algorithms',
+    'algorithm': 'Algorithms',
+    'go': 'Go',
+    'go-programming': 'Go'
+  };
+
+  const ignoredTags = new Set(['memes', 'meme', 'humor', 'general', 'notes', 'personal', 'food', 'review', 'templates']);
+
+  let cleanTags = [];
+  rawTags.forEach(t => {
+    const lower = t.toLowerCase().trim();
+    if (ignoredTags.has(lower)) return;
+    cleanTags.push(tagMapping[lower] || t.trim());
+  });
+
+  if (cleanTags.length === 0) {
+    if (/\b(c\+\+|cpp)\b/i.test(content)) cleanTags.push('C++');
+    if (/\b(go|golang)\b/i.test(content)) cleanTags.push('Go');
+    if (/\b(algorithm|tree|heap|graph|sorting)\b/i.test(content)) cleanTags.push('Algorithms');
+    cleanTags.push('Software Engineering');
   }
+
+  const tags = Array.from(new Set(cleanTags));
 
   // 5. Reading time
   const words = body.trim().split(/\s+/).length;

@@ -1,7 +1,7 @@
 ---
 title: "The Art of Abstraction — Spoof STL with custom iterator"
 date: 2024-08-04
-tags: ["Software Development", "C++"]
+tags: ["C++", "Software Engineering", "Algorithms"]
 summary: "Spoofing C++ STL binary search algorithms across large continuous search spaces with custom iterator abstractions."
 ---
 

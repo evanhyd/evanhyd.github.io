@@ -1,7 +1,7 @@
 ---
 title: Modern C++ Quirks, Duck Typing, and Obfuscation Memes
 date: 2022-04-08
-tags: ["C++", "Memes", "Humor"]
+tags: ["C++", "Software Engineering"]
 summary: Arrays as pointers, variadic fold expressions acting like duck typing, node extraction, and funny variable names.
 ---
 

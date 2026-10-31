@@ -1,7 +1,7 @@
 ---
 title: "Hit me like a trainwreck"
 date: 2026-08-28
-tags: ["Software Engineering"]
+tags: ["C++", "Software Engineering", "School"]
 summary: "Reflections on CS 452 (Real-Time Programming) at the University of Waterloo: building an RTOS from scratch, interfacing with CAN bus, and multi-train coordination."
 ---
 

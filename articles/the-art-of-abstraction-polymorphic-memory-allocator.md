@@ -1,7 +1,7 @@
 ---
 title: "The Art of Abstraction — Polymorphic Memory Allocator"
 date: 2025-09-27
-tags: ["Software Development", "C++"]
+tags: ["C++", "Software Engineering"]
 summary: "I’ve been developing my own data structure library for years, recently renamed to the [Flow Library](https://github.com/evanhyd/DataStructure). While I’ve made steady improvements, most of my conta..."
 ---
 

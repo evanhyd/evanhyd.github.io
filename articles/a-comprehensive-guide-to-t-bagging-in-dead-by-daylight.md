@@ -1,7 +1,7 @@
 ---
 title: "A Comprehensive Guide to T-Bagging in Dead By Daylight"
 date: 2024-03-10
-tags: ["Gaming"]
+tags: ["Video Games"]
 summary: "Hello to the survivors in the fog, whether you are a SOLOQ specialist or SWF player. Today, I am writing a tutorial on how to t-bag as a survivor properly in Dead by Daylight without ending as a vi..."
 ---
 

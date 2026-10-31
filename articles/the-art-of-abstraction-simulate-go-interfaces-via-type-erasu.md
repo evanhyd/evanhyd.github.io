@@ -1,7 +1,7 @@
 ---
 title: "The Art of Abstraction — Simulate Go interfaces via type erasure"
 date: 2025-01-27
-tags: ["C++", "Software Development"]
+tags: ["C++", "Go", "Software Engineering"]
 summary: "In the Go programming language, a class satisfies an interface if it implements all its functions. How can we simulate this structural typing in C++ via type erasure?"
 ---
 

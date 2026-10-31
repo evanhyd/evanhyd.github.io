@@ -1,7 +1,7 @@
 ---
 title: Too Perfect Forwarding & Variadic Constructor Quirks
 date: 2023-07-01
-tags: ["C++", "Templates", "Modern C++"]
+tags: ["C++", "Software Engineering"]
 summary: Deep dive into C++ template constructor overload resolution and variadic perfect forwarding pitfalls.
 ---
 

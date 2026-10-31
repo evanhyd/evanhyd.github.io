@@ -1,7 +1,7 @@
 ---
 title: "Profiling Data Structure in GO"
 date: 2024-01-13
-tags: ["Go", "Software Engineering", "Computer Science"]
+tags: ["Go", "Software Engineering", "Algorithms"]
 summary: "GO provides only a few data structures such as slice (dynamic array), map (hash table), and some other [containers](https://pkg.go.dev/container). Recently I have been porting my custom data struct..."
 ---
 

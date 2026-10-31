@@ -5,7 +5,9 @@
     "summary": "Reflections on CS 452 (Real-Time Programming) at the University of Waterloo: building an RTOS from scratch, interfacing with CAN bus, and multi-train coordination.",
     "date": "2026-08-28",
     "tags": [
-      "Software Engineering"
+      "C++",
+      "Software Engineering",
+      "School"
     ],
     "readingTime": "21 min read",
     "file": "articles/hit-me-like-a-trainwreck.md"
@@ -16,8 +18,8 @@
     "summary": "I’ve been developing my own data structure library for years, recently renamed to the [Flow Library](https://github.com/evanhyd/DataStructure). While I’ve made steady improvements, most of my conta...",
     "date": "2025-09-27",
     "tags": [
-      "Software Development",
-      "C++"
+      "C++",
+      "Software Engineering"
     ],
     "readingTime": "6 min read",
     "file": "articles/the-art-of-abstraction-polymorphic-memory-allocator.md"
@@ -40,7 +42,8 @@
     "date": "2025-01-27",
     "tags": [
       "C++",
-      "Software Development"
+      "Go",
+      "Software Engineering"
     ],
     "readingTime": "4 min read",
     "file": "articles/the-art-of-abstraction-simulate-go-interfaces-via-type-erasu.md"
@@ -51,8 +54,9 @@
     "summary": "Spoofing C++ STL binary search algorithms across large continuous search spaces with custom iterator abstractions.",
     "date": "2024-08-04",
     "tags": [
-      "Software Development",
-      "C++"
+      "C++",
+      "Software Engineering",
+      "Algorithms"
     ],
     "readingTime": "4 min read",
     "file": "articles/the-art-of-abstraction-spoof-stl-with-custom-iterator.md"
@@ -63,8 +67,7 @@
     "summary": "I often get hungry at night when staying up late, so I asked myself, why not purchase some chocolates from the local convenience store? On a random night, I went to the school plaza and purchased 4...",
     "date": "2024-04-19",
     "tags": [
-      "Review",
-      "Food"
+      "School"
     ],
     "readingTime": "2 min read",
     "file": "articles/random-chocolate-review.md"
@@ -75,7 +78,7 @@
     "summary": "Hello to the survivors in the fog, whether you are a SOLOQ specialist or SWF player. Today, I am writing a tutorial on how to t-bag as a survivor properly in Dead by Daylight without ending as a vi...",
     "date": "2024-03-10",
     "tags": [
-      "Gaming"
+      "Video Games"
     ],
     "readingTime": "8 min read",
     "file": "articles/a-comprehensive-guide-to-t-bagging-in-dead-by-daylight.md"
@@ -88,7 +91,7 @@
     "tags": [
       "Go",
       "Software Engineering",
-      "Computer Science"
+      "Algorithms"
     ],
     "readingTime": "9 min read",
     "file": "articles/profiling-data-structure-in-go.md"
@@ -100,8 +103,7 @@
     "date": "2023-07-01",
     "tags": [
       "C++",
-      "Templates",
-      "Modern C++"
+      "Software Engineering"
     ],
     "readingTime": "2 min read",
     "file": "articles/cpp-variadic-forwarding.md"
@@ -114,7 +116,7 @@
     "tags": [
       "C++",
       "Algorithms",
-      "Midterm"
+      "School"
     ],
     "readingTime": "1 min read",
     "file": "articles/cheese-cs-midterm.md"
@@ -126,8 +128,7 @@
     "date": "2022-04-08",
     "tags": [
       "C++",
-      "Memes",
-      "Humor"
+      "Software Engineering"
     ],
     "readingTime": "2 min read",
     "file": "articles/cpp-quirks-and-memes.md"
@@ -139,8 +140,7 @@
     "date": "2022-04-05",
     "tags": [
       "C++",
-      "Algorithms",
-      "Performance"
+      "Algorithms"
     ],
     "readingTime": "2 min read",
     "file": "articles/competitive-programming-fast-io.md"

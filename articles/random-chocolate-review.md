@@ -1,7 +1,7 @@
 ---
 title: "Random Chocolate Review"
 date: 2024-04-19
-tags: ["Review", "Food"]
+tags: ["School"]
 summary: "I often get hungry at night when staying up late, so I asked myself, why not purchase some chocolates from the local convenience store? On a random night, I went to the school plaza and purchased 4..."
 ---
 

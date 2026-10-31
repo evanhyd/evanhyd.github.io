@@ -1,7 +1,7 @@
 ---
 title: How to Cheese CS Midterm Exam
 date: 2022-06-09
-tags: ["C++", "Algorithms", "Midterm"]
+tags: ["C++", "Algorithms", "School"]
 summary: When the professor forgot to specify "recursion only" on the exam question.
 ---
 

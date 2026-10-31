@@ -1,7 +1,7 @@
 ---
 title: Competitive Programming Hacks & Ultra-Fast I/O in C++
 date: 2022-04-05
-tags: ["C++", "Algorithms", "Performance"]
+tags: ["C++", "Algorithms"]
 summary: Squeezing every millisecond in online judges with custom unlocked I/O parsers.
 ---
 
